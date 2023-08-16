@@ -1,0 +1,61 @@
+.see_more_home{
+
+color: rgb(255, 184, 3);
+border: none;
+float: left;
+}
+/* .see_more:hover{
+    background-color: rgb(255, 44, 44);
+} */
+body{
+    font-family: Arial !important;
+    margin: 0;
+}
+/* warning modal css */
+.temporary{
+    cursor: pointer;
+    color:black;
+    padding: 5px;
+    text-decoration: none;
+}
+.temporary:hover{
+    color: orange;
+}
+.permanent{
+    cursor: pointer;
+    color:black;
+    padding: 5px;
+    text-decoration: none;
+}
+.permanent:hover{
+    color:red;
+}
+.no{
+    cursor: pointer;
+    color:black;
+    padding: 5px;
+}
+.no:hover{
+    color:rgb(2, 151, 2);
+}
+.button_option{
+text-align: center;
+padding: 20px;
+}
+.warning-body{
+    color: black !important;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  img[loading="lazy"] {
+    opacity: 0 !important; /* set opacity to 0 */
+    transition: opacity 0.5s ease-in-out !important; /* add a transition effect */
+  }
+  
+  img[loading="lazy"].loaded {
+    opacity: 1 !important; /* set opacity to 1 when the image is loaded */
+  }
+
+
